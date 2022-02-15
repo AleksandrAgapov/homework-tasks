@@ -1,4 +1,5 @@
-﻿
+﻿// 9.	Показать четные числа от 1 до N
+
 Console.Clear();
  int a  = 1; 
 
@@ -10,3 +11,4 @@ System.Console.WriteLine("введите максимальное положит
      
     System.Console.Write(a);
      a++ ;
+ }
