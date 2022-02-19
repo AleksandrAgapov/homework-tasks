@@ -13,7 +13,6 @@ int z;
 System.Console.WriteLine(" Задайте пятизначное число ");
 x = Convert.ToInt32(Console.ReadLine());
 
-System.Console.WriteLine(a6);
 a1=x%10;
 a2=(x/10)%10;
 a3=(x/100)%10;
