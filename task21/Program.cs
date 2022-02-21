@@ -8,7 +8,7 @@ int a2;
 int a3;
 int a4;
 int a5;
-int a6;
+
 int z;
 System.Console.WriteLine(" Задайте пятизначное число ");
 x = Convert.ToInt32(Console.ReadLine());
