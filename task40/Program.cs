@@ -4,12 +4,12 @@
 Console.Clear();
 double[] array = new double[10];
 double max = 0;
-double min = 99;
+double min = 98;
 double num;
-
+Random rand = new Random();
 for (int i = 0; i < array.Length; i++)
 {
-    array[i] = new Random().Next(10, 99);
+    array[i] = rand.NextDouble();
     System.Console.Write("|" + array[i] + "");
     System.Console.Write("|");
 }
