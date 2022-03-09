@@ -24,9 +24,7 @@ for( int i=0; i<nums.GetLength(0);i++)
 {
     for( int j=0; j<nums.GetLength(1);j++)     
 {
-    //   nums[i,j]= a;
-    // a++;
-    if(i%2==0 && j%2==0)
+       if(i%2==0 && j%2==0)
 
    nums[i,j]= (int) Math.Pow(nums[i,j],2);
     
